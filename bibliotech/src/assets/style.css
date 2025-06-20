@@ -1,0 +1,114 @@
+.header {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: hwb(216 11% 35%);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 25px;
+}
+
+.navbar-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin: 0 30px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 75%;
+  max-width: 300px;
+}
+
+.search-icon {
+  font-size: 16px;
+  color: #64748b;
+  margin-right: 8px;
+}
+
+.search-input {
+  border: none;
+  background: transparent;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  color: #1e293b;
+}
+
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+}
+
+/* Notification container */
+.notifications {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9; /* light gray */
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Red badge */
+.notif-badge {
+  background-color: #ef4444; /* red */
+  color: white;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  margin-left: 8px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 1;
+}
+
+.notifications {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  color: rgb(25, 16, 16);
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.new-loan {
+  background-color: #0f172a; /* dark navy */
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.new-loan:hover {
+  background-color: #1e293b; /* slightly lighter on hover */
+}
